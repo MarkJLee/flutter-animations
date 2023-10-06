@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations/screens/explicit_animations_screen.dart';
 import 'package:flutter_animations/screens/implicit_animations_screen.dart';
+import 'package:flutter_animations/screens/pomodoro_screen.dart';
 import 'package:flutter_animations/screens/test_screen.dart';
 
 class MenuScreen extends StatelessWidget {
@@ -37,6 +38,13 @@ class MenuScreen extends StatelessWidget {
                 const ExplicitAnimationsScreen(),
               ),
               child: const Text('Explicit Animations'),
+            ),
+            ElevatedButton(
+              onPressed: () => _goToPage(
+                context,
+                const PomodoroScreen(),
+              ),
+              child: const Text('Pomodoro'),
             ),
             ElevatedButton(
               onPressed: () => _goToPage(
