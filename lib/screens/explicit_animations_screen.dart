@@ -149,11 +149,11 @@ class _ExplicitAnimationsScreenState extends State<ExplicitAnimationsScreen>
               children: [
                 ElevatedButton(
                   onPressed: _play,
-                  child: const Text("Play"),
+                  child: const Icon(Icons.play_arrow),
                 ),
                 ElevatedButton(
                   onPressed: _pause,
-                  child: const Text("Pause"),
+                  child: const Icon(Icons.pause),
                 ),
                 ElevatedButton(
                   onPressed: _reverse,
@@ -161,9 +161,7 @@ class _ExplicitAnimationsScreenState extends State<ExplicitAnimationsScreen>
                 ),
                 ElevatedButton(
                   onPressed: _toggleLooping,
-                  child: Text(
-                    _looping ? "Stop Looping" : "Looping",
-                  ),
+                  child: Text(_looping ? "Stop Loop" : "Loop"),
                 ),
               ],
             ),
