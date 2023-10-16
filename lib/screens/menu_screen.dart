@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animations/screens/explicit_animations_screen.dart';
 import 'package:flutter_animations/screens/flashcards_screen.dart';
+import 'package:flutter_animations/screens/game_store_screen.dart';
 import 'package:flutter_animations/screens/implicit_animations_screen.dart';
 import 'package:flutter_animations/screens/pomodoro_screen.dart';
 import 'package:flutter_animations/screens/test_screen.dart';
@@ -57,7 +58,14 @@ class MenuScreen extends StatelessWidget {
             ElevatedButton(
               onPressed: () => _goToPage(
                 context,
-                const TestScreen(),
+                const GameStoreScreen(),
+              ),
+              child: const Text('Game Store'),
+            ),
+            ElevatedButton(
+              onPressed: () => _goToPage(
+                context,
+                const TestGameStoreScreen(),
               ),
               child: const Text(
                 'Test Screen',

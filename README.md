@@ -22,3 +22,7 @@ Animation creation project using Flutter
 -   Using a Custom Painter, design a progress bar at the bottom to visually display the user's progress through the flashcards.
 -   Gestures should be integrated such that tapping on a flashcard reveals its answer, dragging it to the left turns the app background red, and dragging it to the right turns it green.
 -   Upon dismissing a card, the subsequent flashcard should be presented to the user.
+
+## Game Store App
+
+-   Utilize the essence of Flutter animation to implement a game store app. This should involve using the flutter_animate package, implementing the AnimatedSwitcher, and incorporating both horizontal and vertical navigation.
