@@ -26,3 +26,7 @@ Animation creation project using Flutter
 ## Game Store App
 
 -   Utilize the essence of Flutter animation to implement a game store app. This should involve using the flutter_animate package, implementing the AnimatedSwitcher, and incorporating both horizontal and vertical navigation.
+
+## Demo
+
+[https://imgur.com/gallery/bp8iRvH]
